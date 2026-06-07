@@ -95,6 +95,7 @@ public class GameManager : MonoBehaviour {
 
 	// Hook to the Quit button.
 	public void Quit() {
+		Debug.Log("Quit pressed - exiting game");
 		Application.Quit();
 		#if UNITY_EDITOR
 		UnityEditor.EditorApplication.isPlaying = false;
