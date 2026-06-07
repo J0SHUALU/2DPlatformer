@@ -55,6 +55,18 @@ public class GameManager : MonoBehaviour {
 			GameOver();
 		}
 	}
+    
+	// Called when the player takes a hit from an enemy.
+	public void TakeEnemyDamage() {
+		lifeCount--;
+		if (lifeCount >= 0) lifeText.text = "x" + lifeCount;
+
+		if (lifeCount > 0) {
+			Respawn();
+		} else {
+			GameOver();
+		}
+	}
 
 	void Respawn() {
 		// Respawn near the water the player entered, not at the start (extra mark).
