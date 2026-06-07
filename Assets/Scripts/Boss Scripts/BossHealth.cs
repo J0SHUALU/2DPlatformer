@@ -5,7 +5,7 @@ using UnityEngine;
 public class BossHealth : MonoBehaviour {
 
 	private Animator anim;
-	private int health = 1;
+	private int health = 4;
 
 	private bool canDamage;
 
@@ -29,6 +29,7 @@ public class BossHealth : MonoBehaviour {
 					//
 					GetComponent<BossScript>().DeactivateBossScript();
 					anim.Play("BossDead");
+					GameManager.instance.WinGame();
 				}
 
 				StartCoroutine (WaitForDamage ());

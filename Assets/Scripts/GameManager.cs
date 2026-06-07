@@ -14,10 +14,11 @@ public class GameManager : MonoBehaviour {
 	private Transform player;
 	private Rigidbody2D playerBody;
 
-	// Tracks the last safe ground position so respawn happens near the water (extra mark).
+	// Tracks the last safe ground position so respawn happens near the water.
 	private Vector3 lastSafePosition;
 
-	public GameObject endScenePanel; // Panel with Replay and Quit buttons (assign in Inspector).
+	public GameObject endScenePanel; // Panel with Replay and Quit buttons.
+	public GameObject winPanel;
 
 	void Awake() {
 		if (instance == null) instance = this;
@@ -35,6 +36,7 @@ public class GameManager : MonoBehaviour {
 		lifeText.text = "x" + lifeCount;
 
 		if (endScenePanel != null) endScenePanel.SetActive(false);
+		if (winPanel != null) winPanel.SetActive(false);
 	}
 
 	void Update() {
@@ -69,7 +71,7 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void Respawn() {
-		// Respawn near the water the player entered, not at the start (extra mark).
+		// Respawn near the water the player entered, not at the start.
 		Vector3 respawnPos = lastSafePosition + Vector3.up * 1.5f;
 		player.position = respawnPos;
 		playerBody.linearVelocity = Vector2.zero;
@@ -79,6 +81,11 @@ public class GameManager : MonoBehaviour {
 		Time.timeScale = 0f;
 		if (endScenePanel != null) endScenePanel.SetActive(true);
 	}
+
+	public void WinGame() {
+        Time.timeScale = 0f;
+        if (winPanel != null) winPanel.SetActive(true);
+    }
 
 	// Hook to the Replay button.
 	public void Replay() {

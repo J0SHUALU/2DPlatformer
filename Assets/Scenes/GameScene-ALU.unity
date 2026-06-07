@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 3726958}
   - component: {fileID: 3726960}
   - component: {fileID: 3726959}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water (18)
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -681,7 +681,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 21244805}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -979,6 +979,143 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &25201140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 25201141}
+  - component: {fileID: 25201143}
+  - component: {fileID: 25201142}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &25201141
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25201140}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 165151272}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -1.7000008}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &25201142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25201140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Replay
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 20
+  m_fontSizeBase: 20
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 0
+  m_fontSizeMax: 0
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 0
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &25201143
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 25201140}
+  m_CullTransparentMesh: 1
 --- !u!1 &26626216
 GameObject:
   m_ObjectHideFlags: 0
@@ -988,7 +1125,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 26626217}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1019,7 +1156,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 41189393}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1050,7 +1187,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 47077302}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1433,7 +1570,7 @@ Transform:
   m_GameObject: {fileID: 66514648}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 48.22, y: 0.75, z: 0}
+  m_LocalPosition: {x: 48.22, y: -0.68, z: 0}
   m_LocalScale: {x: 0.39999998, y: 0.39999998, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1567,7 +1704,7 @@ GameObject:
   - component: {fileID: 67653705}
   - component: {fileID: 67653707}
   - component: {fileID: 67653706}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1837,7 +1974,8 @@ GameObject:
   m_Component:
   - component: {fileID: 70820573}
   - component: {fileID: 70820574}
-  m_Layer: 0
+  - component: {fileID: 70820575}
+  m_Layer: 3
   m_Name: Cut Tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1853,7 +1991,7 @@ Transform:
   m_GameObject: {fileID: 70820572}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 42.10848, y: -3.93, z: 0}
+  m_LocalPosition: {x: 44.5, y: -3.93, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1918,6 +2056,52 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!61 &70820575
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70820572}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.2, y: 1.33}
+    newSize: {x: 1.2, y: 1.33}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.2, y: 1.33}
+  m_EdgeRadius: 0
 --- !u!1 &71989133
 GameObject:
   m_ObjectHideFlags: 0
@@ -2020,7 +2204,7 @@ GameObject:
   - component: {fileID: 74858404}
   - component: {fileID: 74858406}
   - component: {fileID: 74858405}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water (3)
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -2178,6 +2362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   endScenePanel: {fileID: 713371262}
+  winPanel: {fileID: 1578602630}
 --- !u!4 &76300011
 Transform:
   m_ObjectHideFlags: 0
@@ -2400,7 +2585,7 @@ Transform:
   m_GameObject: {fileID: 80357915}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 45.81, y: 0.75, z: 0}
+  m_LocalPosition: {x: 45.81, y: -0.68, z: 0}
   m_LocalScale: {x: 0.39999998, y: 0.39999998, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2625,7 +2810,7 @@ GameObject:
   - component: {fileID: 98616291}
   - component: {fileID: 98616293}
   - component: {fileID: 98616292}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water (8)
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -2866,7 +3051,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4842377445722896, guid: 270476c86898441ebba04a1780996bd5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.06
+      value: 1.26
       objectReference: {fileID: 0}
     - target: {fileID: 4842377445722896, guid: 270476c86898441ebba04a1780996bd5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2888,6 +3073,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114433360892764894, guid: 270476c86898441ebba04a1780996bd5, type: 3}
+      propertyPath: playerLayer.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2904,7 +3093,7 @@ GameObject:
   - component: {fileID: 136311619}
   - component: {fileID: 136311621}
   - component: {fileID: 136311620}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3042,7 +3231,7 @@ GameObject:
   - component: {fileID: 139603923}
   - component: {fileID: 139603925}
   - component: {fileID: 139603924}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water (6)
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -3330,7 +3519,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4250916752214804, guid: deb81019505174616922fb5b092e2611, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.72
+      value: -4.21
       objectReference: {fileID: 0}
     - target: {fileID: 4250916752214804, guid: deb81019505174616922fb5b092e2611, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3352,11 +3541,148 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114754893130265698, guid: deb81019505174616922fb5b092e2611, type: 3}
+      propertyPath: playerLayer.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: deb81019505174616922fb5b092e2611, type: 3}
+--- !u!1 &165151271
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 165151272}
+  - component: {fileID: 165151275}
+  - component: {fileID: 165151274}
+  - component: {fileID: 165151273}
+  m_Layer: 5
+  m_Name: ReplayButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &165151272
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165151271}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 25201141}
+  m_Father: {fileID: 1578602631}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -92, y: -37}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &165151273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165151271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 0.29803923, g: 0.6862745, b: 0.3137255, a: 1}
+    m_HighlightedColor: {r: 0.49724102, g: 0.6981132, b: 0.50696063, a: 1}
+    m_PressedColor: {r: 0.10337308, g: 0.21698111, b: 0.107963316, a: 1}
+    m_SelectedColor: {r: 0.101960786, g: 0.21568628, b: 0.10980392, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 165151274}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 76300010}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: Replay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &165151274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165151271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &165151275
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165151271}
+  m_CullTransparentMesh: 1
 --- !u!1 &184135188
 GameObject:
   m_ObjectHideFlags: 0
@@ -3368,7 +3694,7 @@ GameObject:
   - component: {fileID: 184135189}
   - component: {fileID: 184135191}
   - component: {fileID: 184135190}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water (19)
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -3645,7 +3971,7 @@ GameObject:
   - component: {fileID: 200380108}
   - component: {fileID: 200380110}
   - component: {fileID: 200380109}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4139,6 +4465,139 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &254760305
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 254760306}
+  - component: {fileID: 254760309}
+  - component: {fileID: 254760308}
+  - component: {fileID: 254760307}
+  m_Layer: 5
+  m_Name: QuitButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &254760306
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254760305}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1400935170}
+  m_Father: {fileID: 1578602631}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 90, y: -37}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &254760307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254760305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 0.8980392, g: 0.22352941, b: 0.20784314, a: 1}
+    m_HighlightedColor: {r: 0.9811321, g: 0.6413025, b: 0.63403344, a: 1}
+    m_PressedColor: {r: 0.5660378, g: 0.14593919, b: 0.13616945, a: 1}
+    m_SelectedColor: {r: 0.5647059, g: 0.14509805, b: 0.13725491, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 254760308}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 76300010}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: Quit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &254760308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254760305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &254760309
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254760305}
+  m_CullTransparentMesh: 1
 --- !u!1 &264920868
 GameObject:
   m_ObjectHideFlags: 0
@@ -4286,7 +4745,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 274379957}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4319,7 +4778,7 @@ GameObject:
   - component: {fileID: 281553292}
   - component: {fileID: 281553294}
   - component: {fileID: 281553293}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4565,7 +5024,7 @@ Transform:
   m_GameObject: {fileID: 285835343}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 137.73999, y: -0.049999908, z: 0}
+  m_LocalPosition: {x: 137.73999, y: -0.675, z: 0}
   m_LocalScale: {x: 0.39999998, y: 0.39999998, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4710,7 +5169,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4101985624137796, guid: be3eb85ab377e4b95bc8eeeb166f1b7a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.85
+      value: -4.23
       objectReference: {fileID: 0}
     - target: {fileID: 4101985624137796, guid: be3eb85ab377e4b95bc8eeeb166f1b7a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4732,6 +5191,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114917210804837380, guid: be3eb85ab377e4b95bc8eeeb166f1b7a, type: 3}
+      propertyPath: playerLayer.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4748,7 +5211,7 @@ GameObject:
   - component: {fileID: 303075978}
   - component: {fileID: 303075980}
   - component: {fileID: 303075979}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5300,7 +5763,7 @@ GameObject:
   - component: {fileID: 359965741}
   - component: {fileID: 359965743}
   - component: {fileID: 359965742}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water (23)
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -5437,7 +5900,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 361193792}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5468,7 +5931,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 387852574}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5656,7 +6119,7 @@ Transform:
   m_GameObject: {fileID: 398550051}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 136.1, y: -0.049999908, z: 0}
+  m_LocalPosition: {x: 136.1, y: -0.675, z: 0}
   m_LocalScale: {x: 0.39999998, y: 0.39999998, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6066,7 +6529,7 @@ GameObject:
   - component: {fileID: 411960012}
   - component: {fileID: 411960014}
   - component: {fileID: 411960013}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water (10)
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -7060,7 +7523,7 @@ Transform:
   m_GameObject: {fileID: 448282420}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 64.7, y: 0.75, z: 0}
+  m_LocalPosition: {x: 64.7, y: -0.63, z: 0}
   m_LocalScale: {x: 0.39999998, y: 0.39999998, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7468,7 +7931,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 470032954}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7777,7 +8240,7 @@ GameObject:
   - component: {fileID: 490974273}
   - component: {fileID: 490974275}
   - component: {fileID: 490974274}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water (2)
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -8192,7 +8655,7 @@ GameObject:
   - component: {fileID: 495735654}
   - component: {fileID: 495735655}
   - component: {fileID: 495735656}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -8410,7 +8873,7 @@ GameObject:
   - component: {fileID: 504212499}
   - component: {fileID: 504212501}
   - component: {fileID: 504212500}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8548,7 +9011,7 @@ GameObject:
   - component: {fileID: 519899432}
   - component: {fileID: 519899434}
   - component: {fileID: 519899433}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8686,7 +9149,7 @@ GameObject:
   - component: {fileID: 528379674}
   - component: {fileID: 528379676}
   - component: {fileID: 528379675}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8841,7 +9304,7 @@ Transform:
   m_GameObject: {fileID: 536021529}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 84.63, y: 0.75, z: 0}
+  m_LocalPosition: {x: 84.63, y: -1.58, z: 0}
   m_LocalScale: {x: 0.39999998, y: 0.39999998, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8992,7 +9455,7 @@ Transform:
   m_GameObject: {fileID: 545472810}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 85.399994, y: 0.75, z: 0}
+  m_LocalPosition: {x: 85.399994, y: -1.5799999, z: 0}
   m_LocalScale: {x: 0.39999998, y: 0.39999998, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9143,7 +9606,7 @@ Transform:
   m_GameObject: {fileID: 547071592}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 47.390003, y: 0.75, z: 0}
+  m_LocalPosition: {x: 47.390003, y: -0.68, z: 0}
   m_LocalScale: {x: 0.39999998, y: 0.39999998, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9315,7 +9778,7 @@ GameObject:
   - component: {fileID: 571518910}
   - component: {fileID: 571518912}
   - component: {fileID: 571518911}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9451,7 +9914,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 581217535}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9760,7 +10223,7 @@ GameObject:
   - component: {fileID: 588771034}
   - component: {fileID: 588771036}
   - component: {fileID: 588771035}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9915,7 +10378,7 @@ GameObject:
   - component: {fileID: 609513312}
   - component: {fileID: 609513311}
   - component: {fileID: 609513313}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fence
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10053,7 +10516,7 @@ GameObject:
   - component: {fileID: 613114560}
   - component: {fileID: 613114562}
   - component: {fileID: 613114561}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10222,7 +10685,7 @@ GameObject:
   - component: {fileID: 629099269}
   - component: {fileID: 629099271}
   - component: {fileID: 629099270}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water (16)
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -10733,7 +11196,7 @@ GameObject:
   - component: {fileID: 680416407}
   - component: {fileID: 680416409}
   - component: {fileID: 680416408}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10871,7 +11334,7 @@ GameObject:
   - component: {fileID: 681907623}
   - component: {fileID: 681907624}
   - component: {fileID: 681907625}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water (1)
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -11010,7 +11473,7 @@ GameObject:
   - component: {fileID: 701408589}
   - component: {fileID: 701408591}
   - component: {fileID: 701408590}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11362,7 +11825,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 736801230}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water Parent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12349,7 +12812,7 @@ Transform:
   m_GameObject: {fileID: 813601908}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 45.011475, y: 0.75, z: 0}
+  m_LocalPosition: {x: 45.011475, y: -0.68, z: 0}
   m_LocalScale: {x: 0.39999998, y: 0.39999998, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12806,7 +13269,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 833522209}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13283,7 +13746,7 @@ Transform:
   m_GameObject: {fileID: 857555690}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 135.33, y: -0.05, z: 0}
+  m_LocalPosition: {x: 135.33, y: -0.675, z: 0}
   m_LocalScale: {x: 0.39999998, y: 0.39999998, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13922,7 +14385,7 @@ GameObject:
   - component: {fileID: 873175989}
   - component: {fileID: 873175991}
   - component: {fileID: 873175990}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14227,7 +14690,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 880663252}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14260,7 +14723,7 @@ GameObject:
   - component: {fileID: 881352947}
   - component: {fileID: 881352949}
   - component: {fileID: 881352948}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14398,7 +14861,7 @@ GameObject:
   - component: {fileID: 889485557}
   - component: {fileID: 889485559}
   - component: {fileID: 889485558}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14672,7 +15135,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 915211749}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14784,7 +15247,7 @@ GameObject:
   - component: {fileID: 929998204}
   - component: {fileID: 929998206}
   - component: {fileID: 929998205}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water (12)
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -15197,7 +15660,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 966952118}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15368,7 +15831,7 @@ GameObject:
   - component: {fileID: 981321277}
   - component: {fileID: 981321279}
   - component: {fileID: 981321278}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15685,7 +16148,7 @@ GameObject:
   - component: {fileID: 983316656}
   - component: {fileID: 983316658}
   - component: {fileID: 983316657}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water (20)
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -16098,7 +16561,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1013760987}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16148,7 +16611,7 @@ Transform:
   m_GameObject: {fileID: 1036304790}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 46.58, y: 0.75, z: 0}
+  m_LocalPosition: {x: 46.58, y: -0.68, z: 0}
   m_LocalScale: {x: 0.39999998, y: 0.39999998, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -16282,7 +16745,7 @@ GameObject:
   - component: {fileID: 1040938397}
   - component: {fileID: 1040938399}
   - component: {fileID: 1040938398}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water (11)
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -16704,7 +17167,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4366726488908972, guid: 537ea5de6e5ba4d2f9b548c708673b73, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 44.6
+      value: 51.29
       objectReference: {fileID: 0}
     - target: {fileID: 4366726488908972, guid: 537ea5de6e5ba4d2f9b548c708673b73, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16728,6 +17191,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4366726488908972, guid: 537ea5de6e5ba4d2f9b548c708673b73, type: 3}
       propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114896626206527372, guid: 537ea5de6e5ba4d2f9b548c708673b73, type: 3}
+      propertyPath: playerLayer.m_Bits
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -17303,7 +17770,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1108265059}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17336,7 +17803,7 @@ GameObject:
   - component: {fileID: 1112614924}
   - component: {fileID: 1112614926}
   - component: {fileID: 1112614925}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17612,7 +18079,7 @@ GameObject:
   - component: {fileID: 1128756039}
   - component: {fileID: 1128756041}
   - component: {fileID: 1128756040}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17816,7 +18283,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1157516807}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18538,7 +19005,7 @@ GameObject:
   - component: {fileID: 1206383385}
   - component: {fileID: 1206383387}
   - component: {fileID: 1206383386}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water (9)
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -18856,7 +19323,7 @@ GameObject:
   - component: {fileID: 1232989142}
   - component: {fileID: 1232989144}
   - component: {fileID: 1232989143}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water (14)
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -19132,7 +19599,7 @@ GameObject:
   - component: {fileID: 1248160370}
   - component: {fileID: 1248160372}
   - component: {fileID: 1248160371}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20513,7 +20980,7 @@ GameObject:
   - component: {fileID: 1300179299}
   - component: {fileID: 1300179301}
   - component: {fileID: 1300179300}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20819,7 +21286,7 @@ Transform:
   m_GameObject: {fileID: 1303491559}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 136.91, y: -0.049999908, z: 0}
+  m_LocalPosition: {x: 136.91, y: -0.675, z: 0}
   m_LocalScale: {x: 0.39999998, y: 0.39999998, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21227,7 +21694,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1315812289}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21398,7 +21865,7 @@ GameObject:
   - component: {fileID: 1343023080}
   - component: {fileID: 1343023082}
   - component: {fileID: 1343023081}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21536,7 +22003,7 @@ GameObject:
   - component: {fileID: 1349492819}
   - component: {fileID: 1349492821}
   - component: {fileID: 1349492820}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fence (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21812,7 +22279,7 @@ GameObject:
   - component: {fileID: 1354966334}
   - component: {fileID: 1354966336}
   - component: {fileID: 1354966335}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22088,7 +22555,7 @@ GameObject:
   - component: {fileID: 1388522749}
   - component: {fileID: 1388522751}
   - component: {fileID: 1388522750}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22215,6 +22682,143 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1400935169
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1400935170}
+  - component: {fileID: 1400935172}
+  - component: {fileID: 1400935171}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1400935170
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400935169}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 254760306}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -0.5}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1400935171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400935169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Quit
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 20
+  m_fontSizeBase: 20
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1400935172
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400935169}
+  m_CullTransparentMesh: 1
 --- !u!1 &1407771095
 GameObject:
   m_ObjectHideFlags: 0
@@ -22364,7 +22968,7 @@ GameObject:
   - component: {fileID: 1419500061}
   - component: {fileID: 1419500063}
   - component: {fileID: 1419500062}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water (22)
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -22503,7 +23107,7 @@ GameObject:
   - component: {fileID: 1423060714}
   - component: {fileID: 1423060716}
   - component: {fileID: 1423060715}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22792,7 +23396,7 @@ GameObject:
   - component: {fileID: 1427272393}
   - component: {fileID: 1427272395}
   - component: {fileID: 1427272394}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23066,7 +23670,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1437320626}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block Parent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23138,7 +23742,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1440573487}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23174,7 +23778,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4916652382961634, guid: 35865660f3281424cb17c2143f614acb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 163.8
+      value: 166.63
       objectReference: {fileID: 0}
     - target: {fileID: 4916652382961634, guid: 35865660f3281424cb17c2143f614acb, type: 3}
       propertyPath: m_LocalPosition.y
@@ -23981,7 +24585,7 @@ Transform:
   m_GameObject: {fileID: 1489744059}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 87.03999, y: 0.75, z: 0}
+  m_LocalPosition: {x: 87.03999, y: -1.5799999, z: 0}
   m_LocalScale: {x: 0.39999998, y: 0.39999998, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24115,7 +24719,7 @@ GameObject:
   - component: {fileID: 1491257937}
   - component: {fileID: 1491257939}
   - component: {fileID: 1491257938}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24270,7 +24874,7 @@ Transform:
   m_GameObject: {fileID: 1491872622}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 62.289997, y: 0.75, z: 0}
+  m_LocalPosition: {x: 62.289997, y: -0.63, z: 0}
   m_LocalScale: {x: 0.39999998, y: 0.39999998, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -24542,7 +25146,7 @@ GameObject:
   - component: {fileID: 1500185943}
   - component: {fileID: 1500185945}
   - component: {fileID: 1500185944}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25335,7 +25939,7 @@ GameObject:
   - component: {fileID: 1538219169}
   - component: {fileID: 1538219171}
   - component: {fileID: 1538219170}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water (17)
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -25474,7 +26078,7 @@ GameObject:
   - component: {fileID: 1544290916}
   - component: {fileID: 1544290918}
   - component: {fileID: 1544290917}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25739,6 +26343,84 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1578602630
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1578602631}
+  - component: {fileID: 1578602633}
+  - component: {fileID: 1578602632}
+  m_Layer: 5
+  m_Name: WinPanel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1578602631
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578602630}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 165151272}
+  - {fileID: 254760306}
+  - {fileID: 1678613433}
+  m_Father: {fileID: 1657537387}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1578602632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578602630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.44705883}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1578602633
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578602630}
+  m_CullTransparentMesh: 1
 --- !u!1 &1580202486
 GameObject:
   m_ObjectHideFlags: 0
@@ -25841,7 +26523,7 @@ GameObject:
   - component: {fileID: 1580650889}
   - component: {fileID: 1580650891}
   - component: {fileID: 1580650890}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25996,7 +26678,7 @@ Transform:
   m_GameObject: {fileID: 1586771326}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 86.21, y: 0.75, z: 0}
+  m_LocalPosition: {x: 86.21, y: -1.5799999, z: 0}
   m_LocalScale: {x: 0.39999998, y: 0.39999998, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -26147,7 +26829,7 @@ Transform:
   m_GameObject: {fileID: 1598574940}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 63.059998, y: 0.75, z: 0}
+  m_LocalPosition: {x: 63.059998, y: -0.63, z: 0}
   m_LocalScale: {x: 0.39999998, y: 0.39999998, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -26281,7 +26963,7 @@ GameObject:
   - component: {fileID: 1621291352}
   - component: {fileID: 1621291354}
   - component: {fileID: 1621291353}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water (7)
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -26693,7 +27375,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1641976875}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26953,6 +27635,7 @@ RectTransform:
   - {fileID: 929233328}
   - {fileID: 499134168}
   - {fileID: 713371263}
+  - {fileID: 1578602631}
   - {fileID: 1960191963}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -27140,6 +27823,143 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 512
+--- !u!1 &1678613432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1678613433}
+  - component: {fileID: 1678613435}
+  - component: {fileID: 1678613434}
+  m_Layer: 5
+  m_Name: GameOverText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1678613433
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678613432}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1578602631}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 141, y: 70}
+  m_SizeDelta: {x: 624.72, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1678613434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678613432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: YOU WIN
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281722192
+  m_fontColor: {r: 0.3144567, g: 0.8980392, b: 0.20784311, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 80
+  m_fontSizeBase: 80
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: -29.1
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1678613435
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678613432}
+  m_CullTransparentMesh: 1
 --- !u!1 &1681354305
 GameObject:
   m_ObjectHideFlags: 0
@@ -27289,7 +28109,7 @@ GameObject:
   - component: {fileID: 1681766961}
   - component: {fileID: 1681766963}
   - component: {fileID: 1681766962}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water (15)
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -27724,7 +28544,7 @@ GameObject:
   - component: {fileID: 1700489259}
   - component: {fileID: 1700489261}
   - component: {fileID: 1700489260}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28017,7 +28837,7 @@ Transform:
   m_GameObject: {fileID: 1710806744}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 63.87, y: 0.75, z: 0}
+  m_LocalPosition: {x: 63.87, y: -0.63, z: 0}
   m_LocalScale: {x: 0.39999998, y: 0.39999998, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -28350,7 +29170,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1734083220}
   - component: {fileID: 1734083221}
-  m_Layer: 0
+  - component: {fileID: 1734083222}
+  m_Layer: 3
   m_Name: Cut Tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28366,7 +29187,7 @@ Transform:
   m_GameObject: {fileID: 1734083219}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 132.31, y: -3.94, z: 0}
+  m_LocalPosition: {x: 134.2, y: -3.94, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -28431,6 +29252,52 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!61 &1734083222
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1734083219}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.2, y: 1.33}
+    newSize: {x: 1.2, y: 1.33}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.2, y: 1.33}
+  m_EdgeRadius: 0
 --- !u!1 &1735668798
 GameObject:
   m_ObjectHideFlags: 0
@@ -28718,7 +29585,7 @@ GameObject:
   - component: {fileID: 1745618106}
   - component: {fileID: 1745618108}
   - component: {fileID: 1745618107}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28856,7 +29723,7 @@ GameObject:
   - component: {fileID: 1754723335}
   - component: {fileID: 1754723337}
   - component: {fileID: 1754723336}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water (13)
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -29823,7 +30690,7 @@ GameObject:
   - component: {fileID: 1781434571}
   - component: {fileID: 1781434573}
   - component: {fileID: 1781434572}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29961,7 +30828,7 @@ GameObject:
   - component: {fileID: 1790250703}
   - component: {fileID: 1790250705}
   - component: {fileID: 1790250704}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30250,7 +31117,7 @@ GameObject:
   - component: {fileID: 1796766427}
   - component: {fileID: 1796766429}
   - component: {fileID: 1796766428}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30719,7 +31586,7 @@ GameObject:
   - component: {fileID: 1826014526}
   - component: {fileID: 1826014528}
   - component: {fileID: 1826014527}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water (21)
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -30858,7 +31725,7 @@ GameObject:
   - component: {fileID: 1826631129}
   - component: {fileID: 1826631131}
   - component: {fileID: 1826631130}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30995,7 +31862,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1827285917}
   - component: {fileID: 1827285918}
-  m_Layer: 0
+  - component: {fileID: 1827285919}
+  m_Layer: 3
   m_Name: Cut Tree (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31011,7 +31879,7 @@ Transform:
   m_GameObject: {fileID: 1827285916}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 67.2, y: -3.93, z: 0}
+  m_LocalPosition: {x: 66.22, y: -3.93, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -31076,6 +31944,52 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!61 &1827285919
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827285916}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.2, y: 1.33}
+    newSize: {x: 1.2, y: 1.33}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.2, y: 1.33}
+  m_EdgeRadius: 0
 --- !u!1 &1840092374
 GameObject:
   m_ObjectHideFlags: 0
@@ -31225,7 +32139,7 @@ GameObject:
   - component: {fileID: 1848172533}
   - component: {fileID: 1848172535}
   - component: {fileID: 1848172534}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31363,7 +32277,7 @@ GameObject:
   - component: {fileID: 1851174429}
   - component: {fileID: 1851174431}
   - component: {fileID: 1851174430}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31650,7 +32564,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1859501462}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31821,7 +32735,7 @@ GameObject:
   - component: {fileID: 1867583023}
   - component: {fileID: 1867583025}
   - component: {fileID: 1867583024}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31957,7 +32871,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1880563949}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31990,7 +32904,7 @@ GameObject:
   - component: {fileID: 1884648180}
   - component: {fileID: 1884648182}
   - component: {fileID: 1884648181}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water (5)
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -32293,7 +33207,7 @@ GameObject:
   - component: {fileID: 1926596047}
   - component: {fileID: 1926596049}
   - component: {fileID: 1926596048}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32431,7 +33345,7 @@ GameObject:
   - component: {fileID: 1940472009}
   - component: {fileID: 1940472011}
   - component: {fileID: 1940472010}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: Water (4)
   m_TagString: Water
   m_Icon: {fileID: 0}
@@ -32568,7 +33482,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1941432470}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32792,7 +33706,7 @@ GameObject:
   - component: {fileID: 1976949386}
   - component: {fileID: 1976949388}
   - component: {fileID: 1976949387}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Chokolate Block (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32928,7 +33842,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2027244150}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33217,6 +34131,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 50182328119418920, guid: faaef2337c68447b79977529f4878950, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 6c3e9d0334c754a25a558e0af0b452b2, type: 2}
     - target: {fileID: 61509429410213164, guid: faaef2337c68447b79977529f4878950, type: 3}
       propertyPath: m_Material
       value: 
