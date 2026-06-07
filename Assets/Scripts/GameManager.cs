@@ -101,5 +101,9 @@ public class GameManager : MonoBehaviour {
 		UnityEditor.EditorApplication.isPlaying = false;
 		#endif
 	}
+	public void GoToMainMenu() {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("MainMenu");
+    }
 
 } // class
