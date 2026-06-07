@@ -72,7 +72,7 @@ public class GameManager : MonoBehaviour {
 
 	void Respawn() {
 		// Respawn near the water the player entered, not at the start.
-		Vector3 respawnPos = lastSafePosition + Vector3.up * 1.5f;
+		Vector3 respawnPos = lastSafePosition + Vector3.up * 1.5f + Vector3.left * 2f;
 		player.position = respawnPos;
 		playerBody.linearVelocity = Vector2.zero;
 	}
