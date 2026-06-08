@@ -46,6 +46,9 @@ You play as a character running through a side-scrolling level, collecting coins
 - Assigned the camera's target to the player at runtime, keeping the target variable private and without using SerializeField
 - Created a Ground layer and assigned the ground tiles so the grounded raycast works
 
+## Game Demo & Code Walkthrough
+https://youtu.be/nyby3sHrv8M
+
 ## Built with
 
 - Unity 6

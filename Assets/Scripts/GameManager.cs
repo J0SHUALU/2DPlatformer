@@ -40,13 +40,13 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void Update() {
-		// Remember the last grounded, dry spot so we respawn close to where the player drowned.
+		// Remember the last grounded, dry spot so you respawn close to where the player drowned.
 		if (player != null && Mathf.Abs(playerBody.linearVelocity.y) < 0.05f) {
 			lastSafePosition = player.position;
 		}
 	}
 
-	// Called by the water trigger (see WaterDeath.cs) when the player enters water.
+	// Called by the water trigger when the player enters water.
 	public void PlayerEnteredWater() {
 		lifeCount--;
 		if (lifeCount >= 0) lifeText.text = "x" + lifeCount;
@@ -87,13 +87,13 @@ public class GameManager : MonoBehaviour {
         if (winPanel != null) winPanel.SetActive(true);
     }
 
-	// Hook to the Replay button.
+	
 	public void Replay() {
 		Time.timeScale = 1f;
 		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 	}
 
-	// Hook to the Quit button.
+	
 	public void Quit() {
 		Debug.Log("Quit pressed - exiting game");
 		Application.Quit();
